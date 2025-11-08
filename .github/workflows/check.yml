@@ -2,8 +2,8 @@ name: Check Mealty Discount
 
 on:
   schedule:
-    - cron: "0 * * * *"   # каждый час
-  workflow_dispatch:       # можно запустить вручную
+    - cron: "0 0,12 * * *" 
+  workflow_dispatch:       
 
 jobs:
   check:
