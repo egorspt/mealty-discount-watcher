@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 URL = "https://www.mealty.ru/?express_flash_promo=1"
-KEYWORDS = ["скидка 25", "экспресс-доставка", "акция"]
+KEYWORDS = ["скидка 25", "акция"]
 
 # токены будут подставляться GitHub Actions через secrets
 BOT_TOKEN = None
